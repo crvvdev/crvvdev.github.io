@@ -1,8 +1,5 @@
 <meta charset="utf-8">
 
-{% include seo.html %}
-
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8FDDWZJ4Y"></script>
 <script>
@@ -13,6 +10,7 @@
   gtag('config', 'G-Z8FDDWZJ4Y');
 </script>
 
+{% include seo.html %}
 
 {% unless site.atom_feed.hide %}
   <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
