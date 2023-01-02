@@ -116,7 +116,7 @@ tag_archive:
   path: /tags/
 
 comments:
-  provider: "utterances"g
+  provider: "utterances"
   utterances:
     theme: "github-dark" # "github-dark"
     issue_term: "pathname"
