@@ -26,8 +26,8 @@ search: true
 markdown: kramdown
 repository: crvvdev/crvvdev.github.io
 
-remote_theme: mmistakes/minimal-mistakes
-#theme: minimal-mistakes-jekyll
+#remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 
 # Outputting
 permalink: /:categories/:title/
